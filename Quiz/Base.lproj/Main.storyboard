@@ -25,10 +25,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeE-xo-WNz">
                                 <rect key="frame" x="158" y="183.5" width="98" height="30"/>
                                 <state key="normal" title="Next Question"/>
+                                <connections>
+                                    <action selector="showNextQuestionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T7d-bA-tNq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OR7-p4-grb">
                                 <rect key="frame" x="160.5" y="551.5" width="93" height="30"/>
                                 <state key="normal" title="Show Answer"/>
+                                <connections>
+                                    <action selector="showAnswerWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Llp-UI-bbb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh7-z7-Owx">
                                 <rect key="frame" x="190" y="113" width="34" height="20.5"/>
