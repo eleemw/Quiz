@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func showNextQuestion(sender: AnyObject) {
-        ++currentQuestionIndex
+        currentQuestionIndex += 1
         if currentQuestionIndex == questions.count {
             currentQuestionIndex = 0
         }
@@ -42,5 +42,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         questionLabel.text = questions[currentQuestionIndex]
     }
+
 }
 
